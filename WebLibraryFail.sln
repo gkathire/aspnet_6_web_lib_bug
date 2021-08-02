@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebLibraryFail", "WebLibraryFail.csproj", "{94A44559-8DAE-4B87-BC9A-092F32D9C05C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{D296C2D5-8BEA-4EE8-970E-7CFA7B638439}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebLibraryFail.WebLib", "lib\WebLibraryFail.WebLib.csproj", "{22704483-E8AA-4D0A-967D-FCDAA3D8A7D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94A44559-8DAE-4B87-BC9A-092F32D9C05C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94A44559-8DAE-4B87-BC9A-092F32D9C05C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94A44559-8DAE-4B87-BC9A-092F32D9C05C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94A44559-8DAE-4B87-BC9A-092F32D9C05C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22704483-E8AA-4D0A-967D-FCDAA3D8A7D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22704483-E8AA-4D0A-967D-FCDAA3D8A7D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22704483-E8AA-4D0A-967D-FCDAA3D8A7D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22704483-E8AA-4D0A-967D-FCDAA3D8A7D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{22704483-E8AA-4D0A-967D-FCDAA3D8A7D1} = {D296C2D5-8BEA-4EE8-970E-7CFA7B638439}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1D1A12B-CD00-4530-8703-CE66F56B6EA1}
+	EndGlobalSection
+EndGlobal
